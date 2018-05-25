@@ -370,5 +370,57 @@
       "restaurantId": "tasty-treats"
     }
   ],
-  "orders": []
+  "orders": [
+    {
+      "address": "Rua Petit Carneiro, 632",
+      "number": "123",
+      "optionalAddress": "lo",
+      "paymentoOption": "MON",
+      "orderItems": [
+        {
+          "quantity": 1,
+          "menuId": "burger"
+        },
+        {
+          "quantity": 1,
+          "menuId": "fries"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "address": "Rua Petit Carneiro, 632",
+      "number": "54",
+      "optionalAddress": "h",
+      "paymentoOption": "REF",
+      "orderItems": [
+        {
+          "quantity": 1,
+          "menuId": "cup-cake"
+        },
+        {
+          "quantity": 1,
+          "menuId": "donut"
+        }
+      ],
+      "id": 2
+    },
+    {
+      "address": "Rua Petit Carneiro, 632",
+      "number": "12",
+      "optionalAddress": "fvsd",
+      "paymentoOption": "DEB",
+      "orderItems": [
+        {
+          "quantity": 1,
+          "menuId": "sunday"
+        },
+        {
+          "quantity": 1,
+          "menuId": "icestd.png"
+        }
+      ],
+      "id": 3
+    }
+  ]
 }
