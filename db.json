@@ -421,6 +421,22 @@
         }
       ],
       "id": 3
+    },
+    {
+      "name": "RICARDO SALIM DARUIX",
+      "email": "ricardosalim7@hotmail.com",
+      "emailConfirmation": "ricardosalim7@hotmail.com",
+      "address": "Rua Petit Carneiro, 632",
+      "number": "123",
+      "optionalAddress": "",
+      "paymentoOption": "MON",
+      "orderItems": [
+        {
+          "quantity": 1,
+          "menuId": "sunday"
+        }
+      ],
+      "id": 4
     }
   ]
 }
