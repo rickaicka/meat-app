@@ -10,6 +10,7 @@ import {RadioComponent} from './radio/radio.component';
 import {RestaurantsService} from '../restaurants/restaurants.service';
 import {ShoppingCartService} from '../restaurant-detail/shopping-cart/shopping-cart.service';
 import {OrderService} from "../order/order.service";
+import {LoginService} from '../security/login/login.service'
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ export class SharedModule{
       providers: [
         RestaurantsService,
         ShoppingCartService,
-        OrderService
+        OrderService,
+        LoginService
       ]
     }
   }
